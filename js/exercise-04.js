@@ -8,3 +8,5 @@
 
     Once you see the results, write in a comment why it works that way
 */
+
+// idk i want to ask u on class
