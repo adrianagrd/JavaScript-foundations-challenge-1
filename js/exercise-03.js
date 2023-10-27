@@ -9,7 +9,7 @@ function getTypeOf(value) {
 }
 
 console.log(getTypeOf("Hello"));
-console.log(getTypeOf(123));
-console.log(getTypeOf(true));
-console.log(getTypeOf(null));
-console.log(getTypeOf(undefined));
+console.log(getTypeOf(123)); // number
+console.log(getTypeOf(true)); // boolean
+console.log(getTypeOf(null)); // object
+console.log(getTypeOf(undefined)); // undefined

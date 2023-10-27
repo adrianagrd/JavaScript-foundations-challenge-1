@@ -9,14 +9,14 @@
    Log out each variable to the terminal at the end.
 */
 
-const String = "Hello";
-const Number = 1;
-const Boolean = true;
-const Null = null;
-const Undefined = undefined;
+const paramString = "Hello";
+const paramNumber = 1;
+const paramBoolean = true;
+const paramNull = null;
+const paramUndefined = undefined;
 
-console.log(String);
-console.log(Number);
-console.log(Boolean);
-console.log(Null);
-console.log(Undefined);
+console.log(paramString);
+console.log(paramNumber);
+console.log(paramBoolean);
+console.log(paramNull);
+console.log(paramUndefined);
