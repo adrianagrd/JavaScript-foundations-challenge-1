@@ -4,20 +4,20 @@
 
    Add a comment explaining what is happenning and how to fix it
 */
+
 const age = 20;
 
 if (age < 3) {
-  console.log("You're just a baby!")
+    console.log("You're just a baby!");
 } else if (age >= 3) {
-  console.log("You are in elementary school, kid.")
+    console.log("You are in elementary school, kid.");
 } else if (age >= 13) {
-  console.log("Nice, you're a teenager!")
+    console.log("Nice, you're a teenager!");
 } else if (age >= 18) {
-  console.log("Most places consider you an adult.")
+    console.log("Most places consider you an adult.");
 } else {
-  console.log("What? How did this happen!?")
+    console.log("What? How did this happen!?");
 }
 
-
-
-
+/* Solution of the problem:
+The problem is that the first condition is always true, so in the rest of the conditions will not be never checked.*/

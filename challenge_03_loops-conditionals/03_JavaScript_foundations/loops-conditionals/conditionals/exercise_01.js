@@ -8,7 +8,18 @@
     HINT: modulus operator ( % ) is your friend
 */
 
+let number = 10;
 
+if (number % 2 === 0) {
+    console.log("The number is even");
+} else {
+    console.log("The number is odd");
+}
 
+number = 11;
 
-
+if (number % 2 === 0) {
+    console.log("The number is even");
+} else {
+    console.log("The number is odd");
+}
