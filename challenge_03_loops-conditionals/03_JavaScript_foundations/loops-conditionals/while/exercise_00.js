@@ -12,10 +12,10 @@ let loggedIn = false;
 let counter = 0;
 
 while (loggedIn === false) {
-    console.log("Incorrect login credentials");
-    counter++;
-    if (counter === 3) {
-        loggedIn = true;
-    }
+  console.log("Incorrect login credentials");
+  counter++;
+  if (counter === 3) {
+    loggedIn = true;
+  }
 }
 console.log("Sucessfully logged in!");

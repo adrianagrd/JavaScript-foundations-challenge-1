@@ -8,10 +8,10 @@
 */
 
 for (let index = 0; index <= 10; index++) {
-    let randomNumber = Math.floor(Math.random() * 10) + 1;
-    if (randomNumber >= 5) {
-        console.log("Logged In!");
-    } else {
-        console.log("Logged Out!");
-    }
+  let randomNumber = Math.floor(Math.random() * 10) + 1;
+  if (randomNumber >= 5) {
+    console.log("Logged In!");
+  } else {
+    console.log("Logged Out!");
+  }
 }
