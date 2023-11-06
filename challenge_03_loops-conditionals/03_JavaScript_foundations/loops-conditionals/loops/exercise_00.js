@@ -4,29 +4,29 @@
     2. Create a for loop that will print out all the odd numbers between 10 and 40.
 */
 
-print("Select an option: ");
-print("1. Even numbers between 10 and 40");
-print("2. Odd numbers between 10 and 40");
+console.log("Select an option: ");
+console.log("1. Even numbers between 10 and 40");
+console.log("2. Odd numbers between 10 and 40");
 
-switch (prompt("Enter your choice: ")) {
-  case "1":
-    evenNumbers();
-    break;
-  case "2":
-    oddNumbers();
-    break;
+switch (prompt("Enter your option: ") {
+    case "1":
+        evenNumbers();
+        break;
+    case "2":
+        oddNumbers();
+        break;
 }
 
 //even numbers
-for (let i = 10; i <= 40; i++) {
-  if (i % 2 === 0) {
-    console.log(i);
-  }
+for (let number = 10; number <= 40; number++) {
+    if (number % 2 === 0) {
+        console.log(number);
+    }
 }
 
 //odd numbers
-for (let i = 10; i <= 40; i++) {
-  if (i % 2 !== 0) {
-    console.log(i);
-  }
+for (let number = 10; number <= 40; number++) {
+    if (number % 2 !== 0) {
+        console.log(number);
+    }
 }
